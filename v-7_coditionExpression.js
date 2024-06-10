@@ -38,5 +38,8 @@ else{
 }
 
 
+// another example of ternary operator
 
+let drivingcar = ("enter your age");
 
+console.log( "you can" (drivingcar<18? "you can not drive the car" : "you can drive the car"));
