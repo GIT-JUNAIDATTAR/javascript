@@ -37,3 +37,16 @@ if(num % 2==0 || num % 3==0){
 else{
     console.log("this number is not divisible by 2 and 3");
 }
+
+//4.write a javaascript program to find ither a number divisible by 2 or 3.
+// in this example we have to use "||" logical operator , if one of statement is true the program will be executed.
+
+let num2 = 2;
+
+if (num2 % 2==0 || num2 % 3==0){
+    console.log("this number is divisible by either 2 or 3");
+}
+
+else{
+    console.log("this number is not divisible by either 2 or 3")
+}
