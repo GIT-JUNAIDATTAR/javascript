@@ -50,3 +50,10 @@ if (num2 % 2==0 || num2 % 3==0){
 else{
     console.log("this number is not divisible by either 2 or 3")
 }
+
+//5.print "you can drive " or " you cannot drive " based on age being greater than 18 using ternary operator
+//in this we are using ternary operator 
+
+let age3 = 17;
+
+console.log( age3 <= 18 ? "you cannot drive" : "you can drive");
