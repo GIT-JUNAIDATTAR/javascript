@@ -13,9 +13,8 @@ for(let i = 0;i < num; i++){
     
 }    
 
-console.log("the sum of "+ num + " is "+ sum);
+console.log("The sum of "+ num + " is "+ sum);
 
-*/
 //example of for-in loop
 
 let obj ={
@@ -26,7 +25,7 @@ let obj ={
 }
 
 for (let a in obj){
-    console.log( "mark of "+ a + " is -> "+ obj[a]);
+    console.log( "Mark of "+ a + " is -> "+ obj[a]);
 }
 
 // basic example of for-of loop
@@ -34,3 +33,13 @@ for (let a in obj){
 for(let b of "junaid"){
     console.log(b);
 }
+
+*/
+//question for self work is , write javascript program of factorial number
+
+let factorial = 1;
+let n = 5;
+for(let i = 1; i<=n ;i++){
+    factorial = factorial * i;
+}
+console.log("The factorial of "+ n + " is "+ factorial);
