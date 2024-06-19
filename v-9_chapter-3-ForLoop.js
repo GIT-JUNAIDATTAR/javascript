@@ -1,5 +1,5 @@
 // simple program using for loop
-/*
+
 for( let i = 0 ; i<=5 ; i++){
     console.log(i);
 }
@@ -34,7 +34,7 @@ for(let b of "junaid"){
     console.log(b);
 }
 
-*/
+
 //question for self work is , write javascript program of factorial number
 
 let factorial = 1;
