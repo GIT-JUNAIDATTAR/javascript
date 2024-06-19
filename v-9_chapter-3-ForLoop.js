@@ -14,8 +14,8 @@ for(let i = 0;i < num; i++){
 }    
 
 console.log("the sum of "+ num + " is "+ sum);
-*/
 
+*/
 //example of for-in loop
 
 let obj ={
@@ -29,3 +29,8 @@ for (let a in obj){
     console.log( "mark of "+ a + " is -> "+ obj[a]);
 }
 
+// basic example of for-of loop
+
+for(let b of "junaid"){
+    console.log(b);
+}
