@@ -24,3 +24,15 @@ let num = 11;
     else{
         console.log("try again");
     }
+
+ //4. write a function to find the mean of 5 numbers
+
+ let num1 =1 , num2 = 2, num3 = 3, num4 = 4, num5 = 5;
+
+ let totaln = num1 + num2 + num3 + num4+ num5;
+
+ let mean = totaln / 5;
+
+  console.log("Mean of given  five numbers is --->>> " + mean);
+ 
+ 
