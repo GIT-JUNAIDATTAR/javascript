@@ -11,3 +11,16 @@ let obj ={
 for(let mark in obj){
     console.log(obj[mark]);
 }
+
+//3. write a program to print "try again " until user not enter correct number
+
+let num = 11;
+
+
+    if(num>0 && num<=10){
+        console.log("corect number");
+    }
+
+    else{
+        console.log("try again");
+    }
