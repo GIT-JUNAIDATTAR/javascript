@@ -36,10 +36,10 @@ console.log("congrats this is correct number");
 
  //4. write a function to find the mean of 5 numbers
 
-//  const findmean = (a,b,c,d,e ) => {
-//     return  (a + b + c + d )/4;
-//  }
+ const findmean = (a,b,c,d,e ) => {
+    return  (a + b + c + d )/4;
+ }
  
-//   console.log( findmean(4,5,6,7));
+  console.log( findmean(4,5,6,7));
  
  
