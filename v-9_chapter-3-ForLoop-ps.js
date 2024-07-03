@@ -13,11 +13,12 @@ for(let i = 0;i < Object.keys(marks).length;i++ ){
 }
 
 
-// //2. use for-in loop to print the mark of student in question number one
-// //if we use for-in loop in the code is very simple and short 
-// for(let i in marks){
-//     console.log(" THE MARKS OF " + i + " ARE --->>>"+ marks[i]);
-// }
+//2. use for-in loop to print the mark of student in question number one
+
+//if we use for-in loop in the code is very simple and short 
+for(let i in marks){
+    console.log(" THE MARKS OF " + i + " ARE --->>>"+ marks[i]);
+}
 
 
 // //3. write a program to print "try again " until user not enter correct number
