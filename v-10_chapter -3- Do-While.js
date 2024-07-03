@@ -10,7 +10,7 @@ while(i<=n ){//in while loop if statement iss true it enter innto the while loop
     
 
 // example of do - while loop
-
+// do while loop definetly run one time during exicution of code
 
 let n2 = prompt("enter your numner");
 n2 = Number.parseInt(n2);
