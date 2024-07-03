@@ -21,17 +21,17 @@ for(let i in marks){
 }
 
 
-// //3. write a program to print "try again " until user not enter correct number
+//3. write a program to print "try again " until user not enter correct number
 
-// let num = prompt("enter your number");
-// let correctnum = 12;
+let num = prompt("enter your number");
+let correctnum = 12;
 
-// while( num != correctnum ){
-//     console.log("not correct number , try again")
-//     num = prompt("enter your number");
-//     num = parseInt(num);
-// }
-// console.log("congrats this is correct number");
+while( num != correctnum ){
+    console.log("not correct number , try again")
+    num = prompt("enter your number");
+    num = parseInt(num);
+}
+console.log("congrats this is correct number");
 
 
  //4. write a function to find the mean of 5 numbers
