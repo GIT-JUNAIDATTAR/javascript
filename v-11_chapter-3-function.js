@@ -10,9 +10,14 @@ console.log("Average of a and c is -->>" +(a + c )/ 2)
 
 //In downside code we will use the function to calculate the avarage of numbers
 
+/*function avg = (x , y) =>{ // Now a days we decalre the function in this way
+    return (x + y)/2;        // and this is updated version
+    }
+*/
 function avg  (x , y) {
     return (x + y)/2; // when we change anything in funnction , it can be reflect  wherever we use this function
 }
+
 
 let d = 4;
 let e = 5;
