@@ -42,12 +42,12 @@ sentence = "She said, \"Hello!\"";      // Output: She said, "Hello!" - here wwe
 
  // some special charectors for better understanding
  
- let sentence = "Hello\nWorld";
-console.log(sentence); // Output:   Hello
+ let sentence1 = "Hello\nWorld";
+console.log(sentence1); // Output:   Hello
                          //         World
-sentence = "Hello\tWorld";
-console.log(sentence); // Output: Hello   World
+sentence1 = "Hello\tWorld";
+console.log(sentence1); // Output: Hello   World
                          
-let sentence = "Hello\n\tWorld";
- console.log(sentence); // Output: Hello
+let sentence1 = "Hello\n\tWorld";
+ console.log(sentence1); // Output: Hello
                          //         World
