@@ -48,6 +48,6 @@ console.log(sentence1); // Output:   Hello
 sentence1 = "Hello\tWorld";
 console.log(sentence1); // Output: Hello   World
                          
-let sentence1 = "Hello\n\tWorld";
+ sentence1 = "Hello\n\tWorld";
  console.log(sentence1); // Output: Hello
                          //         World
