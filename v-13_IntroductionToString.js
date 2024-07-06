@@ -26,4 +26,6 @@ console.log("hello my name is " + n + " and my favorite fruit is " + f);
 
 // when we use template literal
 
-console.log(`HELLO MY NAME IS ${n} AND MY FAVORITE FRUIT IS ${f}`);
+console.log(`HELLO MY NAME IS ${n} AND MY FAVORITE FRUIT IS ${f}`);// Remember we are using the backtic-``
+
+
