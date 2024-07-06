@@ -13,8 +13,7 @@ console.log(typeof(b)); //typeof is to identify data type
                         // output --->>> string
 //by this way we can change the number value into the string value
 
-//Template Literals
-
+//Template Literals-
 //You can also use backticks ` (it is the button under your escape key) to create a string, called a template literal. This is useful when you need to embed variables within a string. Without template literals, you would need to concatenate strings and variables using the + operator. Here's an example:
 
 // when we dont use template literals
@@ -29,3 +28,14 @@ console.log("hello my name is " + n + " and my favorite fruit is " + f);
 console.log(`HELLO MY NAME IS ${n} AND MY FAVORITE FRUIT IS ${f}`);// Remember we are using the backtic-``
 
 
+//Escape Sequences-
+//Sometimes, you may want to use a character that is already used in JavaScript. For example, you may want to use a single quote within a string. In this case, you can use an escape sequence. An escape sequence is a backslash \ followed by a character that tells the JavaScript interpreter to interpret the following character in a special way. Here are some examples
+
+let sentence = 'She said, "Hello!"';
+console.log(sentence);                  // Output: She said, "Hello!"
+
+sentence = "She said, \"Hello!\"";
+console.log(sentence);                  // Output: She said, "Hello!"
+
+sentence = "She said, \"Hello!\"";      // Output: She said, "Hello!" - here wwe understand 
+                                        //when and where we have have to use the backslash in string
