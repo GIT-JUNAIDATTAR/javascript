@@ -39,3 +39,15 @@ console.log(sentence);                  // Output: She said, "Hello!"
 
 sentence = "She said, \"Hello!\"";      // Output: She said, "Hello!" - here wwe understand 
                                         //when and where we have have to use the backslash in string
+
+ // some special charectors for better understanding
+ 
+ let sentence = "Hello\nWorld";
+console.log(sentence); // Output:   Hello
+                         //         World
+sentence = "Hello\tWorld";
+console.log(sentence); // Output: Hello   World
+                         
+let sentence = "Hello\n\tWorld";
+ console.log(sentence); // Output: Hello
+                         //         World
