@@ -37,7 +37,9 @@ console.log(sentence);                  // Output: She said, "Hello!"
 sentence = "She said, \"Hello!\"";
 console.log(sentence);                  // Output: She said, "Hello!"
 
-sentence = "She said, \"Hello!\"";      // Output: She said, "Hello!" - here wwe understand 
+sentence = "She said, \"Hello!\"";
+console.log(sentence);
+                                         // Output: She said, "Hello!" - here wwe understand 
                                         //when and where we have have to use the backslash in string
 
  // some special charectors for better understanding
