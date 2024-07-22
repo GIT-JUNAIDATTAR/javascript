@@ -75,7 +75,7 @@ console.log(Name.replace("ai","e")); //. replace is use to replace the value ins
 console.log(Name.concat(" is friend of " ,n )); //  .concat is use to joint some new value to it
 
 let friend2 = "                  micel Larance                 ";
-console.log(friend2.trim());
+console.log(friend2.trim()); //. trim is use to cut the unnwanted whitespace from values.
 
 // quick quiz- use foor loop to print the string 
 
