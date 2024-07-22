@@ -72,7 +72,7 @@ console.log(Name.slice(2,5)); // use for slice twice a value like ex - ju and d 
 
 console.log(Name.replace("ai","e")); //. replace is use to replace the value instead of other given value
 
-console.log(Name.concat(" is friend of " ,n ));
+console.log(Name.concat(" is friend of " ,n )); //  .concat is use to joint some new value to it
 
 let friend2 = "                  micel Larance                 ";
 console.log(friend2.trim());
