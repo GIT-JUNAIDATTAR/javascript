@@ -67,7 +67,8 @@ console.log(Name.toLowerCase());  //.toLowerCase method is for lowercase the str
 
 console.log(Name.slice(2)); // .slice method is use to cut the string from wherever we want to cut- ju cut
 
-console.log(Name.slice(2,5));
+console.log(Name.slice(2,5)); // use for slice twice a value like ex - ju and d cut 
+                              //                                     [0][1]  [6]
 
 console.log(Name.replace("ai","e"));
 
