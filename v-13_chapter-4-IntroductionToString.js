@@ -59,7 +59,7 @@ console.log(sentence1); // Output: Hello   World
 
 let Name = "junaid";
 
-console.log(Name.length);
+console.log(Name.length); // .length property is use for identify the length of string
 
 console.log(Name.toUpperCase());
 
