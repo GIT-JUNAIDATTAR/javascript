@@ -53,3 +53,32 @@ console.log(sentence1); // Output: Hello   World
  sentence1 = "Hello\n\tWorld";
  console.log(sentence1); // Output: Hello
                          //         World
+
+
+//string properties and methods
+
+let Name = "junaid";
+
+console.log(Name.length);
+
+console.log(Name.toUpperCase());
+
+console.log(Name.toLowerCase());
+
+console.log(Name.slice(2));
+
+console.log(Name.slice(2,5));
+
+console.log(Name.replace("ai","e"));
+
+console.log(Name.concat(" is friend of " ,n ));
+
+let friend2 = "                  micel Larance                 ";
+console.log(friend2.trim());
+
+// quick quiz- use foor loop to print the string 
+
+// let s = "junaid";
+// for(let i = 0;i<=s;i++){
+//     console.log(s);
+// }
