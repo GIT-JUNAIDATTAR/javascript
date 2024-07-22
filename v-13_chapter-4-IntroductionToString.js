@@ -61,7 +61,7 @@ let Name = "junaid";
 
 console.log(Name.length); // .length property is use for identify the length of string
 
-console.log(Name.toUpperCase());
+console.log(Name.toUpperCase());  //.toUpperCase method is for uppercase the string ex-A , B ,C.
 
 console.log(Name.toLowerCase());
 
