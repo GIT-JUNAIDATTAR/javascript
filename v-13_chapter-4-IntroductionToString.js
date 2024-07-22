@@ -63,7 +63,7 @@ console.log(Name.length); // .length property is use for identify the length of 
 
 console.log(Name.toUpperCase());  //.toUpperCase method is for uppercase the string ex-A , B ,C.
 
-console.log(Name.toLowerCase());
+console.log(Name.toLowerCase());  //.toLowerCase method is for lowercase the string ex- a , b ,c.
 
 console.log(Name.slice(2));
 
