@@ -65,7 +65,7 @@ console.log(Name.toUpperCase());  //.toUpperCase method is for uppercase the str
 
 console.log(Name.toLowerCase());  //.toLowerCase method is for lowercase the string ex- a , b ,c.
 
-console.log(Name.slice(2));
+console.log(Name.slice(2)); // .slice method is use to cut the string from wherever we want to cut- ju cut
 
 console.log(Name.slice(2,5));
 
