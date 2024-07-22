@@ -70,7 +70,7 @@ console.log(Name.slice(2)); // .slice method is use to cut the string from where
 console.log(Name.slice(2,5)); // use for slice twice a value like ex - ju and d cut 
                               //                                     [0][1]  [6]
 
-console.log(Name.replace("ai","e"));
+console.log(Name.replace("ai","e")); //. replace is use to replace the value instead of other given value
 
 console.log(Name.concat(" is friend of " ,n ));
 
