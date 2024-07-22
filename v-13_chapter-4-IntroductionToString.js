@@ -78,7 +78,7 @@ console.log(friend2.trim());
 
 // quick quiz- use foor loop to print the string 
 
-// let s = "junaid";
-// for(let i = 0;i<=s;i++){
-//     console.log(s);
-// }
+let s = "junaid";
+for(let i = 0;i<=s.length;i++){
+    console.log(s[i]);
+}
