@@ -46,6 +46,12 @@ console.log(`${a.endsWith("milk", 20)}`); // Output: false (checking up to index
 // Q.3 write a program to converts the given string into the LOWERCASE
 
 
-let UPPERCASE = " HELLO MY NAME IS JUNAID";
-console.log(UPPERCASE.toLowerCase());
+let str = " HELLO MY NAME IS JUNAID";
+console.log(str.toLowerCase());
                      // imp to add () for accesing the function
+
+
+
+// Q.4 Extract the amount out of the string -> " please give rs 1000"
+
+
