@@ -67,3 +67,12 @@ let str3 = "please give rs 1000";
 let str_to_int2 = Number.parseInt(str3.slice(15));
 console.log(str_to_int2);
 console.log(typeof str_to_int2);
+
+
+// Q5 Try to change the 4th charector of given string - "junaid"
+
+let str4 = "junaid";
+str4[3] = "e"; // str4 is not changing  by this - because string is immutable , so it can`t change
+console.log(str4);// output- junaid
+
+//Ans- we cant change the 4th charector because the string is immutable. 
