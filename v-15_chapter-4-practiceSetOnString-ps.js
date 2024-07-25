@@ -57,6 +57,13 @@ console.log(str.toLowerCase());
 //first solution this is also true but the type of strtoint is not number
 
 let str2 = "please give rs 1000";
-let strtoint = str2 .slice("please give rs".length);
-console.log( strtoint);
+let str_to_int = str2 .slice("please give rs".length);
+console.log( str_to_int);
 
+// In second solution we have to change the string number into intiger datatype
+
+
+let str3 = "please give rs 1000";
+let str_to_int2 = Number.parseInt(str3.slice(15));
+console.log(str_to_int2);
+console.log(typeof str_to_int2);
