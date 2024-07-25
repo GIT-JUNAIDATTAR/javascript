@@ -10,9 +10,12 @@ const a ="cat want to drink milk";
 const b ="milk";
 
                                                //imp point- startsWith("milk",18)
+                                               //                     ("milk",position)
                                                // 18 -> position -> start with 0(zero)
 
-                                               //imp point- 
+                                               //imp point- endsWith("milk",22)
+                                               //                     ("milk",length)
+                                               //22 -> length->starts with 1(one)
 //examples of startsWith function of string
 
 console.log(`${b} ${a.includes(b) ? "is in" : "is not in"}  the sentence`);
