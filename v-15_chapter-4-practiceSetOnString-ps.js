@@ -42,4 +42,10 @@ console.log(`${a.endsWith("milk", 22)}`); // Output: true (checking up to index 
 
 console.log(`${a.endsWith("milk", 20)}`); // Output: false (checking up to index [20])
 
- 
+
+// Q.3 write a program to converts the given string into the LOWERCASE
+
+
+let UPPERCASE = " HELLO MY NAME IS JUNAID";
+console.log(UPPERCASE.toLowerCase());
+                     // imp to add () for accesing the function
