@@ -53,5 +53,10 @@ console.log(str.toLowerCase());
 
 
 // Q.4 Extract the amount out of the string -> " please give rs 1000"
+ 
+//first solution this is also true but the type of strtoint is not number
 
+let str2 = "please give rs 1000";
+let strtoint = str2 .slice("please give rs".length);
+console.log( strtoint);
 
