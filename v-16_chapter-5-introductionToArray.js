@@ -4,8 +4,8 @@
 let name = [ "mike " , "michel" , "harry" , "carry"];
 console.log(name);
 
-console.log(name[0]);
-console.log(name[1]);
+console.log(name[0]);                         //imp point - arrays are mutable,arrays are change
+console.log(name[1]);                         //            strings are imutable , strings can not change
 console.log(name[2]);
 console.log(name[3]);
 
