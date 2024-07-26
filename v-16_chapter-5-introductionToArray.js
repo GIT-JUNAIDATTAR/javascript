@@ -19,4 +19,6 @@ console.log(name[4]); // we can add more values after
 name[0]= "junaid"; // we can also change the value of array 
 console.log(name[0]);
 
+console.log(typeof name);// we can se the datatype of value inserted in array
+
 let a =["name",8,2.2,"a"] // diffrent type of values we can insert in array
