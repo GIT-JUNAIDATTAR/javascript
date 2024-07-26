@@ -13,4 +13,7 @@ console.log(name[4]); // if the value is not avalaible its show the output undif
 
 console.log(name.length); // length always counnt eelements , starts from 1
 
+name[4]= "anas";
+console.log(name[4]); // we can add more values after
+
 let a =["name",8,2.2,"a"] // diffrent type of values we can insert in array
