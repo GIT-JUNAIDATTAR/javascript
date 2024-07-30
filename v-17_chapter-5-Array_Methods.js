@@ -11,3 +11,12 @@ console.log(typeof b);
  let c = a.join("->"); // by using join() method of array,we can join all the array element using a seprator
  console.log(c);
  console.log(typeof c); //but return in string format
+
+// pop() method of array
+
+let d = [1,2,3,4,5];
+d.pop();             // pop() method of array is use to popout(remove) the element from last
+console.log(d);
+
+let e = d.pop(); //we can also see the poped element in this way
+console.log(e);
