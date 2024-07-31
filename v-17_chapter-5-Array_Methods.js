@@ -32,3 +32,11 @@ console.log(f);
 let g = [10,20,30,40,50];
 g.shift();                //shift() is use for remove first element of array and return it
 console.log(g);
+
+//unshift() method of array
+
+let h = [11,22,33,44,55];
+console.log('original element of array -->>',h);
+let newlength = h.unshift(0); // by using unshift method of array we can add new element at beginning 
+console.log(h);               // And its also return the length of total element in output 
+console.log('modified element of array -->>',newlength);
