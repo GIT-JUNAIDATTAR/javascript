@@ -21,6 +21,10 @@ console.log(d);
 let e = d.pop(); //we can also see the poped element in this way
 console.log(e);
 
+//push () method of array
+
 let f = [1,2,3,4];
 f.push(5);     // by using push() method of array we can push new element in array
 console.log(f);
+
+
