@@ -27,4 +27,8 @@ let f = [1,2,3,4];
 f.push(5);     // by using push() method of array we can push new element in array
 console.log(f);
 
+// shift () method of array
 
+let g = [10,20,30,40,50];
+g.shift();                //shift() is use for remove first element of array and return it
+console.log(g);
