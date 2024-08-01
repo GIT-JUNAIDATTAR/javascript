@@ -72,3 +72,12 @@ fruits2.splice(1, 1, 'orange', 'grape');
 console.log('Array after replacement:', fruits2); // Output: ['apple', 'orange', 'grape', 'date']
 
 
+
+// slice method of array
+
+const num5 = [1,2,3,4];
+console.log(num5 .slice(2));//slice method of array slice out the piece from an array and create new array
+
+let num5_0 = num5 . slice(1,3); //num5.slice(start, end)
+                    //(2 , 3) will be output -([3] is not include); 
+console.log(num5_0);
