@@ -81,3 +81,10 @@ console.log(num5 .slice(2));//slice method of array slice out the piece from an 
 let num5_0 = num5 . slice(1,3); //num5.slice(start, end)
                     //(2 , 3) will be output -([3] is not include); 
 console.log(num5_0);
+
+
+//reverse method of array
+
+let num6 = [1, 2, 3, 4, 5];
+num6.reverse();             // reverse method of array is use to reverse the element
+console.log(num6); // Output: [5, 4, 3, 2, 1]
