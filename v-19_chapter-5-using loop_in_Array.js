@@ -29,3 +29,11 @@ let arr = Array.from(name); //using from for converting string to an array.
 console.log(arr);  // output - ['c','a','r','r','y']
 console.log(typeof arr); // output - object(array object);
 
+
+//for of loop -
+//             for of loop is used to get the value from an array.
+let num2 = [1,2,3,4,5];
+for (let i of num2){  // using for of loop for getiing an array of num2.  
+  console.log( i );
+}
+
