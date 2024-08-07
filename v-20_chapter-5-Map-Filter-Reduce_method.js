@@ -1,6 +1,6 @@
 
 // map() - 
-//        map() method create new array from performing some new operation on each array element.
+//        map() method create new array ,from performing some new operation on each array element.
 
 //* map() method is similar to the for each method but ,for each method not return the new array in return
 
