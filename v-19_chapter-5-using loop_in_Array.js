@@ -19,3 +19,13 @@ let num1 =[1,2,3,4,5];
 num1.forEach((Element)=>{ // calling function for each element onece time
     console.log(Element * Element); //output - 1 ,4 ,9 ,16 ,25. 
 })
+
+//Array from -
+//             'from' is use to convert any other object in array
+
+let name = 'carry';
+console.log(typeof name);
+let arr = Array.from(name); //using from for converting string to an array.
+console.log(arr);  // output - ['c','a','r','r','y']
+console.log(typeof arr); // output - object(array object);
+
