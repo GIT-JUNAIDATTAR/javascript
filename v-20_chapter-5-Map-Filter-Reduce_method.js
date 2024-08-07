@@ -16,3 +16,16 @@ let fnum1 = num1.map((value,index,array)=>{ //making new array and storing the v
                                     //        5 4 [ 1, 2, 3, 4, 5 ]     
 })                             //     value index [array]       value starts from 1 , index starts from 0
 
+
+
+// filter() -
+//            filter() methods filter the value of array wich pases a test ,and also creates a new array
+
+let num2 = [1,2,3,4,5,20,30,50,90,100];
+
+ fnum2 = num2.filter((value)=>{ // filtering the value of num2 
+
+   return value <= 30; // filter the test less than and equal to 30
+   
+})
+console.log(fnum2); // output-  1,  2,  3, 4, 5, 20, 30 
