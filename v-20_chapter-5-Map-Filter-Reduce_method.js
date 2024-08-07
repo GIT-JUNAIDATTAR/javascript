@@ -29,3 +29,16 @@ let num2 = [1,2,3,4,5,20,30,50,90,100];
 
 })
 console.log(fnum2); // output-  1,  2,  3, 4, 5, 20, 30 
+
+
+// reduce() -
+//            reduce() method  reduce an array to a single value
+
+let num3 = [10,15,20,25,30];
+
+let sum3 = num3.reduce((v1 , v2)=>{
+
+    return v1 + v2;  //reducing array values to the single value ,ex-after adding
+}) 
+
+console.log(sum3); // output - 100(single value of array num3)
