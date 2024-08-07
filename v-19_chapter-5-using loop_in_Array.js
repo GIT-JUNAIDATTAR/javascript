@@ -37,3 +37,11 @@ for (let i of num2){  // using for of loop for getiing an array of num2.
   console.log( i );
 }
 
+//for in loop -
+//              for in loop can be use to get keys from the array
+
+let num3 =[11,22,33,44,55];//[0,1,2,3,4]
+for (let i in num3){  // getting the keys of array num3;
+    console.log(i); // output -[0,1,2,3,4]
+}
+
