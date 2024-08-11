@@ -25,3 +25,12 @@ let filarr = arr3 .filter((e)=> {
 return e % 10 == 0;
 });
 console.log(filarr);
+
+// 4. create an array of square of given number
+
+let arr4 = [2,4,6,8,10];
+let mularr4 = arr4 . map((x)=>{
+    return x * x;
+})
+
+console.log(mularr4);
