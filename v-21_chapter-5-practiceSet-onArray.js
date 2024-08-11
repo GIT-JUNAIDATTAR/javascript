@@ -34,3 +34,12 @@ let mularr4 = arr4 . map((x)=>{
 })
 
 console.log(mularr4);
+
+// 5. use reduce to calculate the factorial of given number from an array of first n natural number
+//    ( n being  the number whose factorial need to be calculated)
+
+let arr5= [1,2,3,4,5]
+let n = arr5. reduce((x1 , x2)=>{
+    return x1 * x2;
+})
+console.log(n);
