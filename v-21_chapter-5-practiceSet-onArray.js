@@ -17,4 +17,11 @@ addarr2 = parseInt(addarr2);
 arr2.push(addarr2);
 console.log(arr2); } while(addarr2 != 0);
 console.log(arr2);
- 
+
+// 3. filter a number divisible by 10 in a given array
+
+let arr3 = [1,2,3,4,5,20,40,50,60,80,90,100];
+let filarr = arr3 .filter((e)=> {
+return e % 10 == 0;
+});
+console.log(filarr);
