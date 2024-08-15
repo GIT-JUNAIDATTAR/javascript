@@ -12,4 +12,4 @@
 */
 
 const randomNumber = Math.floor(Math.random() * 100) + 1;
-console.log(randomNumber);
+let userinput = prompt("Guess the number bitween 1 to 100--->>>");
