@@ -33,4 +33,4 @@ console.log(`the acctual number is ${randomNumber}`);
 
 
 
-
+//It is amaizing and intresting  number game.
