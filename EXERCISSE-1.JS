@@ -14,15 +14,22 @@ let count = 0;
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 let userinput = prompt("Guess the number bitween 1 to 100--->>>");
 userinput = parseInt(userinput);
+
 while(userinput != randomNumber){
 if(userinput > randomNumber){
-  console.log("your guess is too higher");
+  userinput = prompt("your guess is too higher. try again--->>>");
  }
  else{
-  console.log("your guess is too lesser");
+  userinput = prompt("your guess is too lesser. try again--->>>");
  }
  count++
 }
+
+const score = 100 - count;
+
+console.log(`congratulations you guessed the correct number in  ${count} turns! and your score is ${score}`);
+
+console.log(`the acctual number is ${randomNumber}`);
 
 
 
