@@ -10,9 +10,20 @@
     * count the chance of user in chance variable
     * after game is over display the number of chance and the actual number    
 */
-
+let count = 0;
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 let userinput = prompt("Guess the number bitween 1 to 100--->>>");
 userinput = parseInt(userinput);
+while(userinput != randomNumber){
+if(userinput > randomNumber){
+  console.log("your guess is too higher");
+ }
+ else{
+  console.log("your guess is too lesser");
+ }
+ count++
+}
+
+
 
 
