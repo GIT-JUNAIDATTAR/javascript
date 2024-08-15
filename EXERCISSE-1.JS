@@ -10,3 +10,6 @@
     * count the chance of user in chance variable
     * after game is over display the number of chance and the actual number    
 */
+
+const randomNumber = Math.floor(Math.random() * 100) + 1;
+console.log(randomNumber);
