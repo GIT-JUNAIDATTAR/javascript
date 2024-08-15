@@ -13,3 +13,6 @@
 
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 let userinput = prompt("Guess the number bitween 1 to 100--->>>");
+userinput = parseInt(userinput);
+
+
