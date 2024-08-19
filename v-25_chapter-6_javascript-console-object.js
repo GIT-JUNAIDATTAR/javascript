@@ -17,3 +17,16 @@ console.assert(5>10);//console.assert- used to assert the condition
   }
 
   console.timeEnd("for loop");//console.timeEnd- display the recorded time of for loop
+
+  //when we have to compare the time period of for loop and while loop
+
+  
+console.time("whileLoop")
+
+let i = 0;
+while (i < 50) {
+  console.log(5)
+  i++;
+}
+
+console.timeEnd("whileLoop")
