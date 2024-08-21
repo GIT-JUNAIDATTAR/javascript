@@ -1,5 +1,5 @@
 
-
+//prompt in javscript
 // Display a prompt dialog to the user
 var userInput = prompt("Please enter your name:"); //use to take input from user as string
 
