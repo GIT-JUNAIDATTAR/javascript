@@ -14,7 +14,7 @@
 // Display an alert with a variable
 var userName = "Alice";
 alert("Welcome, " + userName + "!"); //use to invoke mini window with a massage alert("hello")
-document.write(userConfirmed); // document.write is use to display on webpage through javascript
+document.write(userName); // document.write is use to display on webpage through javascript
 
 //confirm in javascript -
 // Display a confirmation dialog with a message
