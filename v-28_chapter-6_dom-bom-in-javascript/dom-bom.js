@@ -59,4 +59,5 @@
 
    console.log(window);// window is global object and we can print window object like this .
 
+   // whatever is happning in javascript is all come under the window object.
 
