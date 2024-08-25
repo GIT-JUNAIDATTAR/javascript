@@ -57,6 +57,9 @@
 
    document.body.style.background ="yellow"; //changing the background color of webpage through js
 
+   //the question is why i style the web page through js??
+   //answer- because when we want to perform work after users action then we need the javascript to style
+
    console.log(window);// window is global object and we can print window object like this .
 
    // whatever is happning in javascript is all come under the window object.
@@ -70,4 +73,10 @@
                              and we can easyly manipulate the code with javascript 
                             
    */
+
+   console.log(document.body);// we can access the body of document by this and 
+                              // and manipulate through javascript easyly
+                              
+   location.href="https://amazon.com";// it is examplle of BOM , and part of BOM , we directly goes
+                                      //on website of amazon                          
 
