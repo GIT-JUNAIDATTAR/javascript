@@ -61,3 +61,13 @@
 
    // whatever is happning in javascript is all come under the window object.
 
+   console.log(document); /* document means - all your html code is converted into javascript object
+                             and all your body and all things converted into javascript object
+                             and stored in document.
+
+                             when we write code ,console.log(document); we can find the document and 
+                             inside the document we find the html code converted in javascript object,
+                             and we can easyly manipulate the code with javascript 
+                            
+   */
+
