@@ -1,8 +1,14 @@
 
 /*
    DOM(document object model)-
+              DOM represent the page content as HTML
+
+              document.body -> page body as js-object
+
+              document.body.style.background =" black " -> change page background to black
+
               With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
-              
+
               When a web page is loaded, the browser creates a Document Object Model of the page.
 
               With the object model, JavaScript gets all the power it needs to create dynamic HTML:
@@ -18,6 +24,13 @@
 
 /*
    BOM(browser object model)-
+            BOM represent the additional object provided by the browser(host environment)
+            for working with everything accept the document.
+
+            the function alert-prompt-confirm are also the part of BOM.
+
+            location.href = "https://amazon.com" - redirect to another url.
+
             The Browser Object Model (BOM) allows JavaScript to "talk to" the browser.
 
             There are no official standards for the Browser Object Model (BOM).
@@ -26,4 +39,19 @@
             properties for JavaScript interactivity, it is often referred to, as
             methods and properties of the BOM.
 
+   The Window Object in BOM-
+            windows object represent the browser windows and provide the method to control it.
+
+            it is global object
+
+            The window object is supported by all browsers.
+
+            All global JavaScript objects, functions, and variables automatically become members
+            of the window object.
+
+            Global variables are properties of the window object.
+
+            Global functions are methods of the window object.
+
 */
+
