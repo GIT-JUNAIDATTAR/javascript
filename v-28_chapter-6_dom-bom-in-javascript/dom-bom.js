@@ -57,4 +57,6 @@
 
    document.body.style.background ="yellow"; //changing the background color of webpage through js
 
+   console.log(window);// window is global object and we can print window object like this .
+
 
