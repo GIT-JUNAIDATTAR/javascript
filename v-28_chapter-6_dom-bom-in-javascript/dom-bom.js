@@ -55,3 +55,6 @@
 
 */
 
+   document.body.style.background ="yellow"; //changing the background color of webpage through js
+
+   
