@@ -78,5 +78,4 @@
                               // and manipulate through javascript easyly
                               
    location.href="https://amazon.com";// it is examplle of BOM , and part of BOM , we directly goes
-                                      //on website of amazon                          
-
+                                      //on website of amazon.com                          
