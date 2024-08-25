@@ -42,7 +42,7 @@
    The Window Object -
             windows object represent the browser windows and provide the method to control it.
 
-            it is global object
+            WINDOW is global object
 
             The window object is supported by all browsers.
 
@@ -57,4 +57,4 @@
 
    document.body.style.background ="yellow"; //changing the background color of webpage through js
 
-   
+
