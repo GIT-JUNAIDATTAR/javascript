@@ -3,6 +3,9 @@
    DOM(document object model)-
               With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
               When a web page is loaded, the browser creates a Document Object Model of the page.
+              
+              With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+
              1> JavaScript can change all the HTML elements in the page
              3>JavaScript can change all the CSS styles in the page
              4>JavaScript can remove existing HTML elements and attributes
