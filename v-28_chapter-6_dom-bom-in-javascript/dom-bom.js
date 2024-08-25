@@ -39,7 +39,7 @@
             properties for JavaScript interactivity, it is often referred to, as
             methods and properties of the BOM.
 
-   The Window Object in BOM-
+   The Window Object -
             windows object represent the browser windows and provide the method to control it.
 
             it is global object
