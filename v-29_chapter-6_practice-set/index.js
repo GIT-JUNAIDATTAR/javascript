@@ -1,5 +1,5 @@
 
-/* Q ]write a  program using prompt function to take input of age as a value from the user and use alert to
+/* Q 1]write a  program using prompt function to take input of age as a value from the user and use alert to
  tell him if he can drive or not
   */
 
@@ -15,3 +15,5 @@ if(candrive(userinput)){
 else{
   alert("YOU CAN DRIVE");
 }
+
+/* Q 2] In question nummber 1 use confirm  to ask the user if he want to see the prrompt again? */ 
