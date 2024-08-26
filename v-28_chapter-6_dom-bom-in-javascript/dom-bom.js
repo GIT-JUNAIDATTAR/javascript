@@ -77,6 +77,6 @@
    console.log(document.body);// we can access the body of document by this and 
                               // and manipulate through javascript easyly
                               
-   location.href="https://amazon.com";// it is examplle of BOM , and part of BOM , we directly goes
-                                      //on website of amazon                          
+   location.href=/*"https://amazon.com"*/; // it is examplle of BOM , and part of BOM , we directly goes
+                                          //on website of amazon when we remove the comment                          
 
