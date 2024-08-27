@@ -23,6 +23,6 @@ while (runagain) {
   else {
     alert("YOU CAN DRIVE");
   }
-  runagain = confirm("DO YOU WANT TO FILL AGAIN");
+  runagain = confirm("DO YOU WANT TO FILL AGAIN ?");
 }
 
