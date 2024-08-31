@@ -20,3 +20,5 @@
 
        let userinput = prompt("choise - S-snake,W-water,G-gun");
        
+       let random_string = generateString(1);
+
