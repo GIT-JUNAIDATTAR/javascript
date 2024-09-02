@@ -3,22 +3,16 @@
        S,W or G . the computer should be able to randomly generate S,W and G andd declare winn or loss 
        using alert ,prompt and confirm whenever  required */
 
-       function generateString(length){
-            const charector = 's w g';
-            let result = ' ';
-
-            for(let i = 0;i < length;i++){
-                  const randomindex = Math.floor(Math.random() * charector.length);
-
-                  result += charector[randomindex];
-            }
-
-            return result;
-
+       function generateString(){
+            const charector = ['s w g'];
+            const randomindex = Math.floor(Math.random() * charector.length;)
+            return charector[randomindex];
        }
 
 
-       let userinput = prompt("choise - S-snake,W-water,G-gun");
+       let userinput = "s";//prompt("choise - S-snake,W-water,G-gun");
+
        
-       let random_string = generateString(1);
+
+
 
