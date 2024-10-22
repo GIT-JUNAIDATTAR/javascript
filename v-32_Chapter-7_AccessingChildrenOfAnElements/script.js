@@ -8,3 +8,6 @@ document.body.firstChild; // for accessing the first child of body tag in html s
 document.body.lastChild; // for accessiing the last child of body tag in html such as - footer
 
 document.body.childNodes; // for accessing the all chiild of body tag in html
+
+// key point- element.childNode[0] == element.firstChild
+//            element.childNodes[element.childNodes.length - 1] === element.lastChild
