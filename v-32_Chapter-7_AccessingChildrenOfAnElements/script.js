@@ -9,5 +9,7 @@ document.body.lastChild; // for accessiing the last child of body tag in html su
 
 document.body.childNodes; // for accessing the all chiild of body tag in html
 
+document.body.children; //
+
 // key point- element.childNode[0] == element.firstChild
 //            element.childNodes[element.childNodes.length - 1] === element.lastChild
