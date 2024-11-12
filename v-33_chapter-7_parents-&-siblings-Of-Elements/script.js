@@ -8,7 +8,7 @@ document.body.firstElementChild.firstElementChild; // -- div.first
 
 //for accesing the second element child of the first element child
 
-document.body.firstElementChild.nextElementSibling; // -- div.second
+document.body.firstElementChild.firstElementChild.nextElementSibling; //-- div.second
 
 /*Note -  example of Next/Right and Previous/Left Siblings
 
