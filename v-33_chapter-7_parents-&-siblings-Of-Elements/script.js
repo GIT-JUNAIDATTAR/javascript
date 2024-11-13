@@ -10,6 +10,12 @@ document.body.firstElementChild.firstElementChild; // -- div.first
 
 document.body.firstElementChild.firstElementChild.nextElementSibling; //-- div.second
 
+// for accesing the next sibling of first element of first element
+
+document.body.firstElementChild.firstElementChild.nextSibling; //-- text , because it consider whitespace
+//                                                                        after div as a node
+
+
 /*Note -  example of Next/Right and Previous/Left Siblings
 
          <div>Some content</div>
