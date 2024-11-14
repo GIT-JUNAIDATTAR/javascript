@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  background-color: gray;
+  margin: 0;
+  padding: 1em;
+}
+
+li {
+  color: white;
+}
