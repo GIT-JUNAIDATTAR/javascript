@@ -26,4 +26,7 @@ cardt3.style.color = "blue";
 
 document.querySelector(".btn").style.background = "red"; // select only first element
 
+//DOM manipulation using queryselectorAll
+//querySelectorAll- method return the all elements inside an element matching the given css selector(like- .btn)
 
+document.querySelectorAll(".btn")[1].style.background = "black";// can select all element  matching the css selector
