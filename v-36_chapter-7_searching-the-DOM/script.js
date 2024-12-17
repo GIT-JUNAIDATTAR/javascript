@@ -20,3 +20,9 @@ cardt2.style.color = "orange";
 
 let cardt3 = document.getElementsByClassName("card-title")[2];
 cardt3.style.color = "blue";
+
+//DOM manipulation using queryselector
+//queryselector- method return the first element thats matches the specified css selector
+
+document.querySelector(".btn").style.background = "red"; // select only first element
+document.querySelector(".card-body")[1].style.background = "red";
