@@ -40,3 +40,8 @@ document.getElementsByTagName("p")[0].style.color = " red"; // manipulate throug
 document.getElementsByTagName("p")[1].style.color = "black";
 document.getElementsByTagName("p")[2].style.color = "blue";
 
+//Dom manipulation using GetElementByName
+//GetElementByName- searches element by the name attributes
+
+document.getElementsByName("submit")[0].style.backgroundColor = "green"; // Select the button by its 'name' attribute
+document.getElementsByName("submit")[0].style.color = "#ffffff"; // Select the button by its 'name' attribute
