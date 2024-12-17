@@ -25,4 +25,5 @@ cardt3.style.color = "blue";
 //queryselector- method return the first element thats matches the specified css selector
 
 document.querySelector(".btn").style.background = "red"; // select only first element
-document.querySelector(".card-body")[1].style.background = "red";
+
+
