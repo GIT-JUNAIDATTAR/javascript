@@ -16,7 +16,7 @@ let cardt1 = document.getElementsByClassName("card-title")[0]; // we can change 
 cardt1.style.color = "red";
 
 let cardt2 = document.getElementsByClassName("card-title")[1];
-cardt2.style.color = "orange";
+cardt2.style.color = "black";
 
 let cardt3 = document.getElementsByClassName("card-title")[2];
 cardt3.style.color = "blue";
@@ -29,4 +29,14 @@ document.querySelector(".btn").style.background = "red"; // select only first el
 //DOM manipulation using queryselectorAll
 //querySelectorAll- method return the all elements inside an element matching the given css selector(like- .btn)
 
-document.querySelectorAll(".btn")[1].style.background = "black";// can select all element  matching the css selector
+document.querySelectorAll(".btn")[1].style.background = "black"; // can select all element  matching the css selector
+
+document.querySelectorAll(".btn")[2].style.background = "blue";
+
+//DOM manipulation using getElementByTagName
+//getElementByTagName- return the element with given tagname(like - p)
+
+document.getElementsByTagName("p")[0].style.color = " red"; // manipulate through tag name[<p>]
+document.getElementsByTagName("p")[1].style.color = "black";
+document.getElementsByTagName("p")[2].style.color = "blue";
+
