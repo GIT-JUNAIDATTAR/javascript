@@ -9,3 +9,13 @@ if (first.matches(".first")) {
 } else {
   console.log("not matches the selector");
 }
+
+let container = document.body.querySelector(".container");
+console.log(container);
+
+if (container.matches(".first")) {
+  console.log("matched to selector");
+} else {
+  console.log("not matched to selector"); //because- matches() checks if the element itself matches a specific CSS selector.
+  // It doesn't look at child elements inside it.
+}
