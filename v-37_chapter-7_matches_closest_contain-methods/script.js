@@ -1,4 +1,4 @@
-//matches() method-
+//matches() -
 //                  The matches() cheks an element matches the specific css selector .
 //                  it returns true if element matches css selector otherwise it return false
 
