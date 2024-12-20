@@ -75,10 +75,10 @@ if (container.contains(first)) {
 
 
 ### Quick Mental Triggers:
-- **`matches()`** = **"Is this element the one?"**
+- **`matches( CSS)`** = **"Is this element the one?"**
 
-- **`closest()`** = **"Which parent matches this?"**
+- **`closest(CSS)`** = **"Which parent matches this?"**
 
-- **`contains()`** = **"Is this inside that?"**
+- **`contains(ELEMENT)`** = **"Is this inside that?"**
 
 These simple phrases will help you quickly recall the purpose of each method when working with the DOM. */
